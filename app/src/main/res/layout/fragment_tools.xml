@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Disclaimer"
+
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:textColor="#000"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="This App is a tool to use added shopping sites at one place. Our SHOPPING apps is for fair usage of brand name. We respect terms and conditions of respective sites and have taken care all necessary guidelines while using names and logos. We tried our best not to use any copyright material in our app, still if you ( site owner) found anything that violate your terms and conditions please write us we will resolve the issue asap. We don't claim any copyright on graphics site using. This app is just a easy that any tool to access few pages. We don't claim to have any direct relationship with the brand on entity name we mentioned."
+
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="
+Note : All contents of the website are owned by respective website. We have no copyright over the content/logo of other websites. For any details please mail us. These third party sites have separate and independent privacy policies and terms. Please read their privacy policy and terms and conditions carefully."
+
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

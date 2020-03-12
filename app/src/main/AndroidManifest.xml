@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hreday.sagar.allusaonlineshop">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/logo"
+
+        android:label="USA Online Shopping"
+
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+
+        android:largeHeap="true"
+
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            ></activity>
+        <activity android:name=".Books.Powel" />
+        <activity android:name=".Books.Penguin" />
+        <activity android:name=".Books.Kobo" />
+        <activity android:name=".Books.Goodreads" />
+        <activity android:name=".Books.ChristianBook" />
+        <activity android:name=".Books.Chegg" />
+        <activity android:name=".Books.Burnandnoble" />
+        <activity android:name=".Books.Bookdepository" />
+        <activity android:name=".Books.Audible" />
+        <activity android:name=".Pharmacy.Vitaminshop" />
+        <activity android:name=".Pharmacy.Riteaid" />
+        <activity android:name=".Pharmacy.Qvc" />
+        <activity android:name=".Pharmacy.Puritan" />
+        <activity android:name=".Pharmacy.Menshealth" />
+        <activity android:name=".Pharmacy.Meijer" />
+        <activity android:name=".Pharmacy.Cvs" />
+        <activity android:name=".Pharmacy.Contacts" />
+        <activity android:name=".Pharmacy.Caremark" />
+        <activity android:name=".Travel.Hotwire" />
+        <activity android:name=".Travel.Homeaway" />
+        <activity android:name=".Travel.Expedia" />
+        <activity android:name=".Travel.Enterprise" />
+        <activity android:name=".Travel.Emirates" />
+        <activity android:name=".Travel.Choicehotels" />
+        <activity android:name=".Travel.Cheoapir" />
+        <activity android:name=".Travel.Carrentals" />
+        <activity android:name=".Travel.Budget" />
+        <activity android:name=".Travel.Booking" />
+        <activity android:name=".Travel.Airbnb" />
+        <activity android:name=".Travel.Agoda" />
+        <activity android:name=".PetSupply.Snagajob" />
+        <activity android:name=".PetSupply.Monster" />
+        <activity android:name=".PetSupply.Indeed" />
+        <activity android:name=".PetSupply.Guru" />
+        <activity android:name=".PetSupply.Freelancer" />
+        <activity android:name=".PetSupply.Carerbuilder" />
+        <activity android:name=".News.Weather" />
+        <activity android:name=".News.Usatoday" />
+        <activity android:name=".News.Newwork" />
+        <activity android:name=".News.Medicalnews" />
+        <activity android:name=".News.Fox" />
+        <activity android:name=".News.Fobes" />
+        <activity android:name=".News.Espn" />
+        <activity android:name=".News.Cnn" />
+        <activity android:name=".News.Britannica" />
+        <activity android:name=".News.Bbc" />
+        <activity android:name=".News.Aoi" />
+        <activity android:name=".News.Abc" />
+        <activity android:name=".Electreonics.Sony" />
+        <activity android:name=".Electreonics.Woot" />
+        <activity android:name=".Electreonics.Tiger" />
+        <activity android:name=".Electreonics.Sears" />
+        <activity android:name=".Electreonics.Rakuten" />
+        <activity android:name=".Electreonics.Frys" />
+        <activity android:name=".Electreonics.Craig" />
+        <activity android:name=".Electreonics.Apple" />
+        <activity android:name=".Electreonics.Adorama" />
+        <activity android:name=".Furnitures.Wiliam" />
+        <activity android:name=".Furnitures.West" />
+        <activity android:name=".Furnitures.Way" />
+        <activity android:name=".Furnitures.Walmarket" />
+        <activity android:name=".Furnitures.Rest" />
+        <activity android:name=".Furnitures.Pottery" />
+        <activity android:name=".Furnitures.OverstockFurnitue" />
+        <activity android:name=".Furnitures.Joss" />
+        <activity android:name=".Furnitures.Ikea" />
+        <activity android:name=".Furnitures.Hay" />
+        <activity android:name=".Furnitures.Bed" />
+        <activity android:name=".Furnitures.Allmodern" />
+        <activity android:name=".Babys.Zuily" />
+        <activity android:name=".Babys.Overstock" />
+        <activity android:name=".Babys.Mattel" />
+        <activity android:name=".Babys.Lego" />
+        <activity android:name=".Babys.Janiandjack" />
+        <activity android:name=".Babys.Gamestop" />
+        <activity android:name=".Babys.Fat" />
+        <activity android:name=".Babys.Fao" />
+        <activity android:name=".Babys.Disney" />
+        <activity android:name=".Babys.Crate" />
+        <activity android:name=".Babys.Childrenspace" />
+        <activity android:name=".Babys.BabyEarth" />
+        <activity android:name=".Homes.Zumper" />
+        <activity android:name=".Homes.Zillow" />
+        <activity android:name=".Homes.Vrbo" />
+        <activity android:name=".Homes.Trulia" />
+        <activity android:name=".Homes.Rentals" />
+        <activity android:name=".Homes.Rent" />
+        <activity android:name=".Homes.Homefinder" />
+        <activity android:name=".Homes.Forrent" />
+        <activity android:name=".Homes.Flipkey" />
+        <activity android:name=".Homes.Apartments" />
+        <activity android:name=".Homes.Apartmentguide" />
+        <activity android:name=".Homes.Apartmentfinder" />
+        <activity android:name=".Foodss.Wholefoodmarket" />
+        <activity android:name=".Foodss.Instacart" />
+        <activity android:name=".Foodss.HelloFresh" />
+        <activity android:name=".Foodss.Freshdirect" />
+        <activity android:name=".Foodss.Foodnetwork" />
+        <activity android:name=".Foodss.Eatingwell" />
+        <activity android:name=".Foodss.Dominous" />
+        <activity android:name=".Foodss.Delivery" />
+        <activity android:name=".Foodss.Chickfill" />
+        <activity android:name=".Foodss.BurgerKing" />
+        <activity android:name=".Foodss.Allrecepies" />
+        <activity android:name=".Fashionss.Victoria" />
+        <activity android:name=".Fashionss.RossSymons" />
+        <activity android:name=".Fashionss.Macys" />
+        <activity android:name=".Fashionss.Kohls" />
+        <activity android:name=".Fashionss.Kay" />
+        <activity android:name=".Fashionss.Jared" />
+        <activity android:name=".Fashionss.Gilt" />
+        <activity android:name=".Fashionss.Gap" />
+        <activity android:name=".Fashionss.Elle" />
+        <activity android:name=".Fashionss.Asos" />
+        <activity android:name=".Fashionss.Armani" />
+        <activity android:name=".Shop.Sears" />
+        <activity android:name=".Shop.Za" />
+        <activity android:name=".Shop.Walmart" />
+        <activity android:name=".Shop.Walgreen" />
+        <activity android:name=".Shop.Target" />
+        <activity android:name=".Shop.Staples" />
+        <activity android:name=".Shop.Petsmart" />
+        <activity android:name=".Shop.Newegg" />
+        <activity android:name=".Shop.Lowes" />
+        <activity android:name=".Shop.Groupon" />
+        <activity android:name=".Shop.Dicks" />
+        <activity android:name=".Shop.Depot" />
+        <activity android:name=".Shop.Carters" />
+        <activity android:name=".Shop.BestBuy" />
+        <activity android:name=".Shop.Banggood" />
+        <activity android:name=".Shop.Athleta" />
+        <activity android:name=".Shop.AmericanEagle" />
+        <activity android:name=".Shop.Aliexpress" />
+        <activity android:name=".Shop.Ebay" />
+        <activity android:name=".Shop.AmazonActivity" />
+        <activity android:name=".Foodss.Kfc" />
+        <activity android:name=".Fashionss.Bluenile" />
+        <activity android:name=".Shop.Etsy" />
+        <activity
+            android:name=".Splashscreen"
+            android:label="@string/app_name"
+           >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

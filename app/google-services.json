@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "327891797766",
+    "firebase_url": "https://hredaymehediusa.firebaseio.com",
+    "project_id": "hredaymehediusa",
+    "storage_bucket": "hredaymehediusa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327891797766:android:43c95ddbdf5a3fe2ba4087",
+        "android_client_info": {
+          "package_name": "hreday.sagar.allusaonlineshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327891797766-sfnhfn6tn7q4kqgtq4nc831vvb1btj2b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hreday.sagar.allusaonlineshop",
+            "certificate_hash": "824cb3f3496ffe79d1b8df6ced6d62cc83560bc9"
+          }
+        },
+        {
+          "client_id": "327891797766-rhffqgrmul5l06gnkt1ds15836teojbc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKAKP0-Vgdpp5ODU2u1gRnuaANOKmvVGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327891797766-rhffqgrmul5l06gnkt1ds15836teojbc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
